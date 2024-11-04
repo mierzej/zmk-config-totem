@@ -41,13 +41,25 @@
 
         closer_braket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <16 17>;
+            key-positions = <27 28>;
             layers = <2>;
         };
 
         or {
             bindings = <&kp PIPE>;
             key-positions = <7 8>;
+            layers = <2>;
+        };
+
+        nawias_ostry {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <17 18>;
+            layers = <2>;
+        };
+
+        open_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
             layers = <2>;
         };
     };
@@ -143,10 +155,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT     &kp RA(E)   &kp EQUAL     &kp PRCNT    &kp STAR          &kp UNDER              &kp AMPERSAND    &kp RA(O)         &kp PLUS
-        &kp RA(A)  &kp RA(S)  &kp DOLLAR  &kp UNDER     &kp HASH     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp RA(L)         &kp RA(DELETE)
-&trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)   &kp QUESTION  &kp CARET    &kp RA(N)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS       &kp LESS_THAN
-                              &trans      &trans        &trans       &trans            &trans                 &trans
+        &kp EXCL   &kp AT     &kp RA(E)   &kp EQUAL          &kp PRCNT    &kp STAR          &kp UNDER              &kp AMPERSAND    &kp RA(O)         &kp PLUS
+        &kp RA(A)  &kp RA(S)  &kp DOLLAR  &kp DOUBLE_QUOTES  &kp HASH     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp RA(L)         &kp RA(DELETE)
+&trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)   &kp QUESTION       &kp CARET    &kp RA(N)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS       &kp BACKSLASH
+                              &trans      &trans             &trans       &trans            &trans                 &trans
             >;
         };
 
