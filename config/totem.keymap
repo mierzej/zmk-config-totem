@@ -68,6 +68,12 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <12 13>;
+            layers = <2>;
+        };
     };
 
     macros {
