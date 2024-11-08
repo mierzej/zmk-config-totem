@@ -74,6 +74,12 @@
             key-positions = <12 13>;
             layers = <2>;
         };
+
+        quote_weard {
+            bindings = <&kp GRAVE>;
+            key-positions = <23 24>;
+            layers = <2>;
+        };
     };
 
     macros {
